@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Rocket League Japan Developers Community', // Usually your GitHub org/user name.
+  organizationName: 'RocketLeagueJapanDevelopersCommunity', // Usually your GitHub org/user name.
   projectName: 'RLJDC', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -25,7 +25,7 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/Rocket-League-Developers-Community',
+          href: 'https://github.com/RocketLeagueJapanDevelopersCommunity',
           label: 'GitHub',
           position: 'right',
         },
@@ -65,7 +65,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Rocket-League-Developers-Community',
+              href: 'https://github.com/RocketLeagueJapanDevelopersCommunity',
             },
           ],
         },
