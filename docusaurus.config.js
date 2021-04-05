@@ -2,13 +2,13 @@
 module.exports = {
   title: 'RLJDC',
   tagline: 'Rocket League Japan Developers Community',
-  url: 'https://rljp.dev',
-  baseUrl: '/',
+  url: 'https://RocketLeagueDevelopersCommunity.github.io',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'RocketLeagueJapanDevelopersCommunity', // Usually your GitHub org/user name.
-  projectName: 'RLJDC', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'RLJDC',
