@@ -1,0 +1,29 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: Deploy Website
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout Project
+      - name: 📚 Checkout
+        uses: actions/checkout@v2
+
+      # Setup NodeJS
+      - name: 🟢 Setup Node ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      # Install Dependencies
+      - name: ⏳ Install
+        run: yarn install
+
+      # Build Packages
+      - name: 🔨 Build Packages
+        run: yarn build
