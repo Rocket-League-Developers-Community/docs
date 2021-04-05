@@ -2,7 +2,7 @@
 module.exports = {
   title: 'RLJDC',
   tagline: 'Rocket League Japan Developers Community',
-  url: 'https://RocketLeagueDevelopersCommunity.github.io',
+  url: 'https://RocketLeagueJapanDevelopersCommunity.github.io',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
