@@ -2,7 +2,7 @@
 module.exports = {
   title: 'RLJDC',
   tagline: 'Rocket League Japan Developers Community',
-  url: 'https://RocketLeagueJapanDevelopersCommunity.github.io',
+  url: 'https://rljp.dev',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -14,7 +14,7 @@ module.exports = {
       title: 'RLJDC',
       logo: {
         alt: 'Logo',
-        src: 'img/globe.svg',
+        src: 'https://cdn.discordapp.com/icons/820640307112050720/ea265e5c33fc608343b672ae649a9a66.webp?size=640',
       },
       items: [
         {
@@ -70,6 +70,12 @@ module.exports = {
           ],
         },
       ],
+      logo: {
+        alt: 'RLJDC Logo',
+        src: 'https://cdn.discordapp.com/icons/820640307112050720/ea265e5c33fc608343b672ae649a9a66.webp?size=640',
+        width: 160,
+        height: 51,
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Rocket League Japan Developers Community.`,
     },
   },
